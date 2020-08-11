@@ -28,4 +28,13 @@ class NewsListTableViewController: UITableViewController {
 
     }
 
+
+    func test(value: String) {
+        print(value);
+    }
+
+    func aaa(_ value: String) {
+        print(value);
+    }
+
 }
