@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb510276-97b5-43cd-a622-38e2fc3b3c89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_2486322C-6428-4464-AA08-9A47A07FE4D3" />
+  <component name="ProjectId" id="1fvqOLTY2BH3mZhyk1JmVSUZvwt" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="GoodNews" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GoodNews" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GoodNews" TARGET_NAME="GoodNews" CONFIG_NAME="Debug" SCHEME_NAME="GoodNews" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="GoodNews" RUN_TARGET_NAME="GoodNews" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb510276-97b5-43cd-a622-38e2fc3b3c89" name="Default Changelist" comment="" />
+      <created>1597108880722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597108880722</updated>
+      <workItem from="1597108881801" duration="6459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="571" key="GridCell.Tab.0.bottom" timestamp="1597117408759">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408759" />
+    <state width="1238" height="571" key="GridCell.Tab.0.center" timestamp="1597117408758">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408758" />
+    <state width="1238" height="571" key="GridCell.Tab.0.left" timestamp="1597117408757">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408757" />
+    <state width="1238" height="571" key="GridCell.Tab.0.right" timestamp="1597117408758">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408758" />
+    <state width="1238" height="571" key="GridCell.Tab.1.bottom" timestamp="1597117408680">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408680" />
+    <state width="1238" height="571" key="GridCell.Tab.1.center" timestamp="1597117408680">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408680" />
+    <state width="1238" height="571" key="GridCell.Tab.1.left" timestamp="1597117408679">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408679" />
+    <state width="1238" height="571" key="GridCell.Tab.1.right" timestamp="1597117408680">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="571" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597117408680" />
+    <state x="942" y="330" key="SettingsEditor" timestamp="1597108983644">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="942" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1597108983644" />
+    <state x="1169" y="666" width="596" height="508" key="find.popup" timestamp="1597110807374">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1169" y="666" width="596" height="508" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1597110807374" />
+  </component>
+</project>
