@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E7D0E5B24E2818300B2A1F0 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D0E5A24E2818300B2A1F0 /* ArticleTableViewCell.swift */; };
 		8D97917A2209DEAA00100BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9791792209DEAA00100BDA /* AppDelegate.swift */; };
 		8D97917F2209DEAA00100BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D97917D2209DEAA00100BDA /* Main.storyboard */; };
 		8D9791812209DEAB00100BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9791802209DEAB00100BDA /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E7D0E5A24E2818300B2A1F0 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		8D9791762209DEAA00100BDA /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9791792209DEAA00100BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D97917E2209DEAA00100BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7D0E5924E2815C00B2A1F0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0E7D0E5A24E2818300B2A1F0 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		8D97916D2209DEAA00100BDA = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		8D9791782209DEAA00100BDA /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				0E7D0E5924E2815C00B2A1F0 /* Cells */,
 				8D97918B2209DED300100BDA /* Controllers */,
 				8D9791792209DEAA00100BDA /* AppDelegate.swift */,
 				8D97917D2209DEAA00100BDA /* Main.storyboard */,
@@ -192,6 +203,7 @@
 				D10BEECCBDEA3A181B41DA8D /* Webservice.swift in Sources */,
 				D10BE1B41DF75132501BB90B /* Extension.swift in Sources */,
 				D10BEB2F087966C4FDD91597 /* Article.swift in Sources */,
+				0E7D0E5B24E2818300B2A1F0 /* ArticleTableViewCell.swift in Sources */,
 				D10BE9B09E91E94822C465D5 /* ArticleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
