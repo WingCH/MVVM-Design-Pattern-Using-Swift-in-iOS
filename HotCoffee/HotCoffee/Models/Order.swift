@@ -14,8 +14,6 @@ enum CoffeeType: String, CodableEnumeration {
     case espressino
     case cortado
     case unknown
-
-
 }
 
 enum CoffeeSize: String, CodableEnumeration {
