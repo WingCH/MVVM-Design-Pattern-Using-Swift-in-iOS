@@ -35,6 +35,7 @@ struct Order: Codable {
     let size: CoffeeSize?
 }
 
+// handle enum unknown case
 // https://zhuanlan.zhihu.com/p/83816429
 protocol CodableEnumeration: RawRepresentable, Codable where RawValue: Codable {
     static var defaultCase: Self { get }
