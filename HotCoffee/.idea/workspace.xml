@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d065d937-5a69-4a3d-9444-0f34d21ed42e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/xcuserdata/wingch.xcuserdatad/xcschemes/HotCoffee.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotCoffee/Services/Webservice.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee.xcodeproj/xcuserdata/wingch.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/xcuserdata/wingch.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Controllers/OrdersTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Controllers/OrdersTableViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Services/Webservice.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Services/Webservice.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597199788590</updated>
       <workItem from="1597199790534" duration="425000" />
-      <workItem from="1597200218418" duration="2368000" />
+      <workItem from="1597200218418" duration="5441000" />
     </task>
     <servers />
   </component>
@@ -88,5 +86,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1677" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1597203806027">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1677" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1597203806027" />
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom" timestamp="1597211625043">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597211625043" />
+    <state width="1238" height="377" key="GridCell.Tab.0.center" timestamp="1597211625043">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597211625043" />
+    <state width="1238" height="377" key="GridCell.Tab.0.left" timestamp="1597211625041">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597211625041" />
+    <state width="1238" height="377" key="GridCell.Tab.0.right" timestamp="1597211625043">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597211625043" />
   </component>
 </project>
