@@ -11,8 +11,21 @@ enum NetworkError: Error {
     case urlError
 }
 
+enum HttpMethod: String {
+    case get = "GET"
+    case post = "POST"
+}
+
+extension Resource {
+    init(url: URL) {
+        self.url = url
+    }
+}
+
 struct Resource<T: Codable> {
     let url: URL
+    var httpMethod: HttpMethod = .get
+    var body: Data? = nil
 }
 
 class Webservice {
@@ -22,19 +35,15 @@ class Webservice {
                 completion(.failure(.domainError))
                 return
             }
-
             do {
                 let result = try JSONDecoder().decode(T.self, from: data)
-
                 DispatchQueue.main.async {
                     completion(.success(result))
                 }
-
             } catch {
                 print(error)
                 completion(.failure(.decodingError))
             }
-
         }.resume()
     }
 }

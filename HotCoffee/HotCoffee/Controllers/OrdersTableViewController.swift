@@ -19,13 +19,7 @@ class OrdersTableViewController: UITableViewController {
     }
 
     private func populateOrders() {
-        guard let coffeeOrdersURL = URL(string: "https://guarded-retreat-82533.herokuapp.com/orders") else {
-            fatalError("URL was incorrect")
-        }
-
-        let resource = Resource<[Order]>(url: coffeeOrdersURL)
-
-        Webservice().load(resource: resource) { result in
+        Webservice().load(resource: Order.all) { result in
             switch result {
             case .success(let orders):
                 self.orderListViewModel.ordersViewModel = orders.map(OrderViewModel.init)
@@ -50,7 +44,7 @@ class OrdersTableViewController: UITableViewController {
 
         cell.textLabel?.text = vm.type
         cell.detailTextLabel?.text = vm.size
-        
+
 
         return cell
     }
