@@ -22,9 +22,8 @@
     <list default="true" id="d065d937-5a69-4a3d-9444-0f34d21ed42e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotCoffee/Controllers/AddOrderViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Controllers/AddOrderViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee/View Models/AddCoffeeOrderViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/View Models/AddCoffeeOrderViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <updated>1597199788590</updated>
       <workItem from="1597199790534" duration="425000" />
       <workItem from="1597200218418" duration="6439000" />
-      <workItem from="1597217286382" duration="10050000" />
+      <workItem from="1597217286382" duration="11633000" />
     </task>
     <servers />
   </component>
