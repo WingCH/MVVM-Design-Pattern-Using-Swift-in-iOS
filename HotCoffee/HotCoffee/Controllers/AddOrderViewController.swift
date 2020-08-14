@@ -12,6 +12,9 @@ import UIKit
 class AddOrderViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+
     private var vm = AddCoffeeOrderViewModel()
     private var coffeeSizesSegmentedControl: UISegmentedControl!
 
@@ -34,6 +37,7 @@ class AddOrderViewController: UIViewController, UITableViewDelegate, UITableView
         self.coffeeSizesSegmentedControl.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
     }
 
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
     }
@@ -50,5 +54,23 @@ class AddOrderViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "CoffeeTypeTableViewCell", for: indexPath)
         cell.textLabel?.text = self.vm.types[indexPath.row]
         return cell
+    }
+
+    @IBAction func save() {
+        let name = self.nameTextField.text
+        let email = self.emailTextField.text
+
+        let selectedSize = self.coffeeSizesSegmentedControl.titleForSegment(at: self.coffeeSizesSegmentedControl.selectedSegmentIndex)
+
+        guard let indexPath = self.tableView.indexPathForSelectedRow else {
+            fatalError("Error in selecting coffee")
+        }
+
+        self.vm.name = name
+        self.vm.email = email
+
+        self.vm.selectedSize = selectedSize
+        self.vm.selectedType = self.vm.types[indexPath.row]
+
     }
 }
