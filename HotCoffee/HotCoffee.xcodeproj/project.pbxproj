@@ -16,6 +16,7 @@
 		D10BE1935F108D70005F6A73 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE9F8D201E134AA9D5B8B /* OrderViewModel.swift */; };
 		D10BEBD9DFFD407B103F10F8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BED13505024BB2F2715B1 /* Order.swift */; };
 		D10BED0BC3FFBA69A2FF2080 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE3FB90DC13377DBA33B3 /* Webservice.swift */; };
+		D10BEFCF866E085107EE8884 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE945C26DFDE6C2C3162E /* AddCoffeeOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8DB8EA6922860F1600A72EDE /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		8DB8EA6B22860F4000A72EDE /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 		D10BE3FB90DC13377DBA33B3 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D10BE945C26DFDE6C2C3162E /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		D10BE9F8D201E134AA9D5B8B /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		D10BED13505024BB2F2715B1 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D10BE9F8D201E134AA9D5B8B /* OrderViewModel.swift */,
+				D10BE945C26DFDE6C2C3162E /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				D10BED0BC3FFBA69A2FF2080 /* Webservice.swift in Sources */,
 				D10BEBD9DFFD407B103F10F8 /* Order.swift in Sources */,
 				D10BE1935F108D70005F6A73 /* OrderViewModel.swift in Sources */,
+				D10BEFCF866E085107EE8884 /* AddCoffeeOrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

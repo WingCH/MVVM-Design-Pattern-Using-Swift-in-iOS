@@ -5,9 +5,14 @@
 
 import Foundation
 
-enum CoffeeType: String, CodableEnumeration {
+enum CoffeeType: String, CodableEnumeration, CaseIterable {
+
     static var defaultCase: CoffeeType {
         return .unknown
+    }
+
+    static var allCases: [CoffeeType] {
+        return [.cappuccino, .latte, .espressino, .cortado]
     }
     case cappuccino
     case latte
@@ -16,9 +21,14 @@ enum CoffeeType: String, CodableEnumeration {
     case unknown
 }
 
-enum CoffeeSize: String, CodableEnumeration {
+enum CoffeeSize: String, CodableEnumeration, CaseIterable {
+
     static var defaultCase: CoffeeSize {
         return .unknown
+    }
+
+    static var allCases: [CoffeeSize] {
+        return [.small, .medium, .large]
     }
     case small
     case medium
