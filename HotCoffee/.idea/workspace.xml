@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d065d937-5a69-4a3d-9444-0f34d21ed42e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee.xcodeproj/project.xcworkspace/xcuserdata/wingch.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotCoffee/Controllers/AddOrderViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Controllers/AddOrderViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotCoffee/Controllers/OrdersTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Controllers/OrdersTableViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Models/Order.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotCoffee/Services/Webservice.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HotCoffee/Services/Webservice.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,8 @@
       <updated>1597199788590</updated>
       <workItem from="1597199790534" duration="425000" />
       <workItem from="1597200218418" duration="6439000" />
-      <workItem from="1597217286382" duration="12879000" />
+      <workItem from="1597217286382" duration="18513000" />
+      <workItem from="1597903881898" duration="5614000" />
     </task>
     <servers />
   </component>
@@ -98,45 +101,52 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1560" y="294" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1597217001738" />
-    <state width="1238" height="377" key="GridCell.Tab.0.bottom" timestamp="1597394914719">
+    <state width="1238" height="376" key="GridCell.Tab.0.bottom" timestamp="1597909935942">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597394914719" />
-    <state width="1238" height="377" key="GridCell.Tab.0.center" timestamp="1597394914718">
+    <state width="1238" height="376" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597909935942" />
+    <state width="1238" height="376" key="GridCell.Tab.0.center" timestamp="1597909935941">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597394914718" />
-    <state width="1238" height="377" key="GridCell.Tab.0.left" timestamp="1597394914718">
+    <state width="1238" height="376" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597909935941" />
+    <state width="1238" height="376" key="GridCell.Tab.0.left" timestamp="1597909935941">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597394914718" />
-    <state width="1238" height="377" key="GridCell.Tab.0.right" timestamp="1597394914719">
+    <state width="1238" height="376" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597909935941" />
+    <state width="1238" height="376" key="GridCell.Tab.0.right" timestamp="1597909935941">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597394914719" />
-    <state width="1238" height="112" key="GridCell.Tab.1.bottom" timestamp="1597393843273">
+    <state width="1238" height="376" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597909935941" />
+    <state width="1238" height="375" key="GridCell.Tab.1.bottom" timestamp="1597909932969">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="112" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597393843273" />
-    <state width="1238" height="112" key="GridCell.Tab.1.center" timestamp="1597393843273">
+    <state width="1238" height="375" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1597909932969" />
+    <state width="1238" height="375" key="GridCell.Tab.1.center" timestamp="1597909932969">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="112" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597393843273" />
-    <state width="1238" height="112" key="GridCell.Tab.1.left" timestamp="1597393843273">
+    <state width="1238" height="375" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1597909932969" />
+    <state width="1238" height="375" key="GridCell.Tab.1.left" timestamp="1597909932968">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="112" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597393843273" />
-    <state width="1238" height="112" key="GridCell.Tab.1.right" timestamp="1597393843273">
+    <state width="1238" height="375" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1597909932968" />
+    <state width="1238" height="375" key="GridCell.Tab.1.right" timestamp="1597909932969">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1238" height="112" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597393843273" />
+    <state width="1238" height="375" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1597909932969" />
     <state x="1429" y="330" key="SettingsEditor" timestamp="1597217063543">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1429" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1597217063543" />
-    <state x="1585" y="328" key="search.everywhere.popup" timestamp="1597218528338">
+    <state x="1585" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1597908004660">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1585" y="328" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1597218528338" />
+    <state x="1585" y="328" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1597908004660" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="AppleRunConfiguration">
+        <watch expression="self.coffeeSizesSegmentedControl.selectedSegmentIndex" language="Swift" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

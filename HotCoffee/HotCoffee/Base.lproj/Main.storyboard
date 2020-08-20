@@ -112,7 +112,11 @@
                         <viewLayoutGuide key="safeArea" id="ync-kU-5CG"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Order" id="XDl-qx-Kia">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="s0d-Gc-lAM"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="s0d-Gc-lAM">
+                            <connections>
+                                <action selector="close" destination="WPu-vG-YYL" id="Ad8-TL-ocL"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" id="UB0-dy-nx9">
                             <connections>
                                 <action selector="save" destination="WPu-vG-YYL" id="la0-wH-WN3"/>
@@ -150,7 +154,6 @@
         <!--Navigation Controller-->
         <scene sceneID="O2C-H8-YfV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6Sr-aw-ix0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WLd-yC-4He" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="t9D-su-HWw">
@@ -162,6 +165,7 @@
                         <segue destination="WPu-vG-YYL" kind="relationship" relationship="rootViewController" id="ckV-wf-C9J"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Sr-aw-ix0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1880" y="121"/>
         </scene>
