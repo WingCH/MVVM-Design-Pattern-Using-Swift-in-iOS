@@ -5,7 +5,21 @@
 
 import Foundation
 
-class StockListViewModel {
+class StockListViewModel: ObservableObject {
     var searchTerm: String = ""
-    var stocks: [StockViewModel] = [StockViewModel]()
+    @Published var stocks: [StockViewModel] = [StockViewModel]()
+
+    func load() {
+        fetchStocks()
+    }
+
+    private func fetchStocks() {
+        Webservice().getStocks { stocks in
+            if let stocks = stocks {
+                DispatchQueue.main.sync {
+                    self.stocks = stocks.map(StockViewModel.init)
+                }
+            }
+        }
+    }
 }
