@@ -13,8 +13,10 @@
 		0EE9C77224F39FFF00115637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77124F39FFF00115637 /* Assets.xcassets */; };
 		0EE9C77524F39FFF00115637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77424F39FFF00115637 /* Preview Assets.xcassets */; };
 		0EE9C77824F39FFF00115637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77624F39FFF00115637 /* LaunchScreen.storyboard */; };
+		D10BE27C2771D929207938C8 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BECCA4EF7D31BC479AD45 /* StockListViewModel.swift */; };
 		D10BE53D18FA05313DE7801B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BEBFC96C501B58454DC02 /* Webservice.swift */; };
 		D10BE55C82F745ADE38660C5 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE024CE119B4DFE8B2116 /* Stock.swift */; };
+		D10BEF9D43424F45B2E28410 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE85F532AB93680EE4ABA /* StockViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +29,9 @@
 		0EE9C77724F39FFF00115637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EE9C77924F39FFF00115637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10BE024CE119B4DFE8B2116 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D10BE85F532AB93680EE4ABA /* StockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
 		D10BEBFC96C501B58454DC02 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D10BECCA4EF7D31BC479AD45 /* StockListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				0EE9C77324F39FFF00115637 /* Preview Content */,
 				D10BEF1491050033668DF264 /* Services */,
 				D10BEF168C322E51EA64C424 /* Models */,
+				D10BEBCB760CDF15599843F1 /* ViewModels */,
 			);
 			path = StocksAppSwiftUI;
 			sourceTree = "<group>";
@@ -79,6 +84,15 @@
 				0EE9C77424F39FFF00115637 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D10BEBCB760CDF15599843F1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D10BECCA4EF7D31BC479AD45 /* StockListViewModel.swift */,
+				D10BE85F532AB93680EE4ABA /* StockViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		D10BEF1491050033668DF264 /* Services */ = {
@@ -173,6 +187,8 @@
 				0EE9C77024F39FFF00115637 /* ContentView.swift in Sources */,
 				D10BE53D18FA05313DE7801B /* Webservice.swift in Sources */,
 				D10BE55C82F745ADE38660C5 /* Stock.swift in Sources */,
+				D10BE27C2771D929207938C8 /* StockListViewModel.swift in Sources */,
+				D10BEF9D43424F45B2E28410 /* StockViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
