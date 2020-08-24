@@ -11,7 +11,6 @@ import UIKit
 
 class OrdersTableViewController: UITableViewController, AddCoffeeOrderDelegate {
 
-
     var orderListViewModel = OrderListViewModel();
 
     override func viewDidLoad() {
@@ -32,6 +31,7 @@ class OrdersTableViewController: UITableViewController, AddCoffeeOrderDelegate {
     }
 
     private func populateOrders() {
+
         Webservice().load(resource: Order.all) { result in
             switch result {
             case .success(let orders):
