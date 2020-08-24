@@ -13,6 +13,8 @@
 		0EE9C77224F39FFF00115637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77124F39FFF00115637 /* Assets.xcassets */; };
 		0EE9C77524F39FFF00115637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77424F39FFF00115637 /* Preview Assets.xcassets */; };
 		0EE9C77824F39FFF00115637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9C77624F39FFF00115637 /* LaunchScreen.storyboard */; };
+		D10BE53D18FA05313DE7801B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BEBFC96C501B58454DC02 /* Webservice.swift */; };
+		D10BE55C82F745ADE38660C5 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BE024CE119B4DFE8B2116 /* Stock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0EE9C77424F39FFF00115637 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EE9C77724F39FFF00115637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EE9C77924F39FFF00115637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10BE024CE119B4DFE8B2116 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D10BEBFC96C501B58454DC02 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0EE9C77624F39FFF00115637 /* LaunchScreen.storyboard */,
 				0EE9C77924F39FFF00115637 /* Info.plist */,
 				0EE9C77324F39FFF00115637 /* Preview Content */,
+				D10BEF1491050033668DF264 /* Services */,
+				D10BEF168C322E51EA64C424 /* Models */,
 			);
 			path = StocksAppSwiftUI;
 			sourceTree = "<group>";
@@ -73,6 +79,22 @@
 				0EE9C77424F39FFF00115637 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D10BEF1491050033668DF264 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D10BEBFC96C501B58454DC02 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D10BEF168C322E51EA64C424 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D10BE024CE119B4DFE8B2116 /* Stock.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +171,8 @@
 				0EE9C76C24F39FFF00115637 /* AppDelegate.swift in Sources */,
 				0EE9C76E24F39FFF00115637 /* SceneDelegate.swift in Sources */,
 				0EE9C77024F39FFF00115637 /* ContentView.swift in Sources */,
+				D10BE53D18FA05313DE7801B /* Webservice.swift in Sources */,
+				D10BE55C82F745ADE38660C5 /* Stock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
