@@ -13,7 +13,11 @@ struct ContentView: View {
     @State private var searchTerm: String = ""
     
     init() {
-//        UINavigationBar.appearance().backgroundColor = UIColor.black
+        UINavigationBar.appearance().backgroundColor = UIColor.black
+        UINavigationBar.appearance().largeTitleTextAttributes = [
+            .foregroundColor: UIColor.white]
+        UITableView.appearance().backgroundColor = UIColor.black
+        UITableViewCell.appearance().backgroundColor = UIColor.black
     }
     
     var body: some View {
